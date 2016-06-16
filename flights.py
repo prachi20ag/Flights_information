@@ -7,7 +7,7 @@ from selenium import webdriver
 
 os.system('clear')
 
-status=open('f1.txt','a')
+status=open('search_result.txt','a')
 
 def flight():
     source=raw_input('Enter the code of source: ')
